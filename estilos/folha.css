@@ -1,0 +1,517 @@
+/* ===========================
+   ======= Body style ======== 
+   =========================== */
+   
+body {
+	background-image: url('../imagens/bg.png');
+	color: #000305;
+	width: 1000px
+	font-size: 87.5%; /* Base font size: 14px */
+	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	line-height: 1.429;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	}
+	
+.body {
+	clear: both; 
+	margin: 0 auto; 
+	width: 70%;
+}
+	
+/* ===========================
+   ========= Headings ======== 
+   =========================== */
+
+h2 {font-size: 1.571em}	/* 22px */
+h3 {font-size: 1.429em}	/* 20px */
+h4 {font-size: 1.286em}	/* 18px */
+h5 {font-size: 1.143em}	/* 16px */
+h6 {font-size: 1em}		/* 14px */
+
+ h2, h3, h4, h5, h6 {
+	font-weight: 400;
+	line-height: 1.1;
+	margin-bottom: .8em;
+}
+
+/* ===========================
+   ======= Anchor style ====== 
+   =========================== */
+a {
+	outline: 0;
+	}
+
+a img {
+	
+	border: 0px; 
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #9b2c25;
+	padding: 0 1px;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	background-color: #9b2c25;
+	color: #fff;
+	text-decoration: none;
+}
+
+/* ===========================
+   ===== Main Navigation ===== 
+   =========================== */
+   
+.mainHeader nav {
+	background: #c1ad72;
+	font-size: 1.143em;
+	height: 35px;
+	line-height: 30px;
+	margin: 30px auto 30px auto;
+	text-align: center;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+	
+.mainHeader nav ul {
+	list-style: none; 
+	margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+	float: left; 
+	display: inline; 
+}
+	
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #9b2c25;
+	display: inline-block;
+	height: 35px;
+	padding: 5px 23px;
+	text-decoration: none;
+}
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	background: #9b2c25;
+	color: #fff;
+	text-shadow: none !important;
+}
+	
+.mainHeader nav li a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainHeader img {
+	width: 100%;
+	height: 350px;
+	margin: 0 0;
+	border-radius: 5px;
+}
+
+/* ===========================
+   ======= Content Area ====== 
+   =========================== */
+
+.mainContent {
+	overflow: hidden;
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.topcontent {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	padding: 3% 5%;	
+	margin-bottom: 3%;
+}
+
+.bottomcontent {
+	background-color: #FFF;	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	padding: 3% 5%;
+}
+
+.content {
+	width: 68%;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow:10px 10px 10px #666;	
+}
+
+.post-info {
+	font-style: italic;
+	color: #999;
+	font-size: 85%;
+}
+
+/* ===========================
+   ======== Sidebar ========== 
+   =========================== */
+
+.top-sidebar {
+	width: 30%;
+	float: left;
+	margin-left: 2%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	background-color: #FFF;	
+	padding: 2% 3%;
+	margin-bottom: 2%;
+	box-shadow:10px 10px 10px #666;
+}
+
+.middle-sidebar {
+	width: 30%;
+	float: left;
+	margin-left: 2%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	background-color: #FFF;	
+	padding: 2% 3%;
+	margin-bottom: 2%;
+	box-shadow:10px 10px 10px #666;
+}
+
+.bottom-sidebar {
+	width: 30%;
+	float: right;
+	margin-left: 2%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	background-color: #FFF;	
+	padding: 2% 3%;
+	box-shadow:10px 10px 10px #666;
+}
+
+/* ===========================
+   ========= Footer ========== 
+   =========================== */
+
+.mainFooter {
+	width: 100%;
+	float: left;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding-left: 0;
+	background-color: #c1ad72;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;		
+}
+
+
+.footerLinks{
+  margin: auto;
+  padding: 5px 0 5px 25px;
+}
+
+.Support{
+  overflow: hidden;
+  display: inline-block;
+  width: 180px;
+  margin: 0 15px 15px 0;
+  font-size: 10pt;
+  line-height: 1.6em;
+  vertical-align: top;
+}
+
+.Support a{
+  display: block;
+  text-decoration: none;
+  color: #9b2c25;
+}
+
+.Support a:hover{
+  	background: #9b2c25;
+	color: #fff;
+	border-radius: 5px;
+	text-shadow: none !important;
+}
+
+.Support h3{
+  color: #9b2c25;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 12pt;
+  display: inline-block;
+  letter-spacing: 1px;
+}
+
+#legal{
+  text-align: center;
+  color: #9b2c25;
+  background-color: #c1ad72;
+  font-size: 8pt;
+  line-height: 1.6em;
+  padding: 10px 10px 30px 10px;
+}
+
+#social a{
+  display: inline-block;
+  width: 29px;
+  height: 29px;
+  margin: 0 3px 3px 0;
+}
+
+#fb{
+  background: url("http://imgur.com/fCRgp42.png") 0 0 no-repeat;
+}
+
+#twitter{
+  background: url("http://imgur.com/fCRgp42.png") -29px 0 no-repeat;
+  border-radius: 4px;  
+}
+
+#blog{
+  background: url("http://imgur.com/fCRgp42.png") -58px 1px no-repeat;
+}
+
+#pinterest{
+  background: url("http://imgur.com/fCRgp42.png") -87px 0 no-repeat;
+  border-radius: 4px;
+}
+
+#instagram{
+  background: url("http://imgur.com/fCRgp42.png") -146px 0 no-repeat;
+}
+
+#ravelry{
+  background: url("http://imgur.com/fCRgp42.png") -117px 0 no-repeat;
+}
+
+#rss{
+  background: url("http://imgur.com/fCRgp42.png") -175px 0 no-repeat;
+}
+
+/* ===========================
+   ===== Google maps =========
+   ===========================*/
+
+   .google-maps {
+        position: relative;
+        padding-bottom: 75%;
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+
+/* ===========================
+   ====== Media Queries ====== 
+   =========================== */
+
+@media only screen and (min-width : 150px) and (max-width : 1100px)
+{
+	.body {
+		clear: both; 
+		margin: 0 auto; 
+		width: 90%;
+		font-size: 90%;
+	}
+	
+	.mainHeader nav {
+		background: #c1ad72;
+		font-size: 1.143em;
+		height: 190px;
+		line-height: 30px;
+		margin-bottom: 0;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	}
+		
+	.mainHeader nav ul {
+		list-style: none; 
+		margin: 0 auto;
+		padding-left: 0;
+	}
+	
+	.mainHeader nav li {
+		margin-left: 0 auto;
+		width: 100%;
+	}
+	
+	.mainHeader nav a:link, .mainHeader nav a:visited {
+		color: #9b2c25;
+		font-size: 1.143em;
+		display: block;
+		height: 30px;
+		padding: 5px 0;
+		text-decoration: none;
+	}
+	
+	.mainHeader nav a:active,
+	.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+		background: #9b2c25;
+		color: #fff;
+		text-shadow: none !important;
+	}
+		
+	.mainHeader nav li a {
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+			
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	}
+	
+	.mainHeader img {
+		width: 100%;
+		height: auto;
+		margin-bottom: 3%;
+	}
+	
+	.mainContent {
+		overflow: hidden;
+		line-height: 25px;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		margin-top: 4%;
+		margin-bottom: 2%;
+	}
+
+
+	.topcontent {
+		background-color: #FFF;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;	
+		padding: 2% 5%;
+		margin-bottom: 4%;
+	}
+	
+	.bottomcontent {
+		background-color: #FFF;	
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;	
+		padding: 2% 5%;
+	}
+	
+	.content {
+		width: 100%;
+		float: left;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;	
+	}	
+
+	.post-info {
+		display: none;
+	}
+
+/* ===========================
+   ======== Sidebar ========== 
+   =========================== */
+	
+	.top-sidebar {
+		width: 100%;
+		float: left;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;	
+		background-color: #FFF;	
+		margin-top: 4%;
+		margin-left: 0;
+		padding: 0 7%;
+		margin-bottom: 0;		
+	}
+	
+	.top-sidebar p {
+		width: 90%;
+	}
+
+	.middle-sidebar {
+		width: 100%;
+		float: left;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;	
+		background-color: #FFF;	
+		margin-top: 4%;
+		margin-left: 0;
+		padding: 0 7%;
+		margin-bottom: 0;	
+	}
+	
+	.middle-sidebar p {
+		width: 90%;
+	}
+	
+	.bottom-sidebar {
+		width: 100%;
+		float: left;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;	
+		background-color: #FFF;	
+		margin-top: 4%;
+		margin-left: 0%;
+		padding: 0 7%;
+		margin-bottom: 1%;
+	}
+	
+	.bottom-sidebar p {
+		width: 90%;
+	}
+
+    /* ===========================
+   ========= Footer ========== 
+   =========================== */
+
+	.mainFooter {
+		width: 100%;
+		float: left;
+		margin: 2% 0;
+		padding-left: 0;
+		background-color: #c1ad72;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;	
+		color: #FFF;	
+	}
+
+ /*===========================
+   ===== Google maps =========
+   ===========================*/
+
+   .google-maps {
+        position: relative;
+        padding-bottom: 75%;
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 40% !important;
+        height: 40% !important;
+    }
+}
